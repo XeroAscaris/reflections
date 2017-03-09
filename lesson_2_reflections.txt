@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+It tells git that this directory is going to contain a new repository and preps the directory for new commits.
+You need to do it so git knows where and what is going on.

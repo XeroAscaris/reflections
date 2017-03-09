@@ -1,0 +1,48 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    You can see how the working code was changed to a state that did not work.
+    Typos can be found, but also you get a visual of the before and after of things.
+    It is like taking a highliter to your own work.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+	You can see changes that you did not make.  You could
+	find changes you want to undo, or better understand.
+	You can find the original version of some code to 
+	get a handle on how it has evolved and changed.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+	Manually, the onus is on you, which can be a con for the forgetful, but it makes
+	the commit points more logical given good judgement.  Auto commits can save you
+	from yourself, but they will have a tendency to be too big or small or illogical.
+   
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Coding changes can effect multiple files, hence saving all of the files in a commit is 
+almost a necessity.  Google docs and Dropbox save individual files because they are ment 
+for other storage types, not coding.
+    
+How can you use the commands git log and git diff to view the history of files?
+
+  GIT LOG gives you info on all the commits of a file.   You can see the order/timing of all commits, timestamps, notes.
+  This info is good record keeping, and helpful when looking for something more specific 
+  at a later date.  GIT DIFF compares the code from two different commits.  This is
+  the big one.  Seeing how two sets of code differ can be the difference between spending
+  hours fixing a bug, or minutes.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+   The worry that you may break something is diminished greatly because with Git
+   checkout you can go back to a previous version.  That can give you a method to trace
+   where a bug started and compare it to code that works.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Making my new project, a D&D player character maker.
