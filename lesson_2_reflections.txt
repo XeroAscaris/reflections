@@ -6,4 +6,8 @@ You need to do it so git knows where and what is going on.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 It works like a loading zone for the repository.  A working directory is the physical location of files on the harddrive, but "adding"
-files to the git staging area makes those files available for tracking via commits.  The repository is the entirety of different commits.  This method gives the coder a very flexible amount of control on what is added to a repository.
+files to the git staging area makes those files available for tracking via commits.  The repository is the entirety of different commits.  This method gives the coder a very flexible amount of control on what is added to a repository.\
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+you can only the files pertinent to a logical change at a time.  Add those files, commit.  Add 2nd logical change files, commit.
