@@ -11,3 +11,8 @@ files to the git staging area makes those files available for tracking via commi
 How can you use the staging area to make sure you have one commit per logical change?
 
 you can only the files pertinent to a logical change at a time.  Add those files, commit.  Add 2nd logical change files, commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branched become a good option when you are trying something new that you aren't sure you are going to put in your main product,
+or when you are using a different method of coding for a feature already in your codebase.  Branches act like subfolders for your repository so that you can try out different things, or have a heavily modified version of something separate from your main codebase.
