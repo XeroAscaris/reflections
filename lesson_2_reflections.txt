@@ -20,3 +20,7 @@ or when you are using a different method of coding for a feature already in your
 How do the diagrams help you visualize the branch structure?
 
 The branch structure is even named after an analagous concept, hence it makes sense that visualing the branch stucture in a diagram that is similar to a tree with branches is the way to go.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The differences in the code are combined into one branch, keeping all changes between the two branches.  The diagram shows how this is accomplished, via two separate lines each with their own commits, meeting at the merge point.
