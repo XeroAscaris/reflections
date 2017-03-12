@@ -13,3 +13,7 @@ forks allow you to clone specifically a repository on github that you want to ed
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 It allows for sane and organized cross reference for possible conflicts and allows a logical restore point to be stored in terms of  your commit history.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Not using either git or github would get harder and harder with the more collaboration you would use.  If you were by yourself, version control could theoretically be done, but could still hit big snags if you break your code in some way, and don't know where to fix it.
