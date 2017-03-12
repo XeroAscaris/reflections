@@ -24,3 +24,7 @@ The branch structure is even named after an analagous concept, hence it makes se
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 The differences in the code are combined into one branch, keeping all changes between the two branches.  The diagram shows how this is accomplished, via two separate lines each with their own commits, meeting at the merge point.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Merging manually would be beyond tedious and prone to mistakes and conflicts.  Git fixes those issues and lets you figure out conflicts in a more cohesive manner.
