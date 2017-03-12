@@ -9,3 +9,7 @@ You may want to make changes to your local repository that you don't want to pub
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 forks allow you to clone specifically a repository on github that you want to edit, but leave the original repository in its original form.  a clone is a little more broad, and just copies a repository, whether it be from github to your local pc or even within a single pc.  branches are different versions of the same repository that have different elements of code, which is used for experimental code ideas or organizational choices for how to implement and add code components.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It allows for sane and organized cross reference for possible conflicts and allows a logical restore point to be stored in terms of  your commit history.
