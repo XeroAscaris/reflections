@@ -17,3 +17,8 @@ It allows for sane and organized cross reference for possible conflicts and allo
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 Not using either git or github would get harder and harder with the more collaboration you would use.  If you were by yourself, version control could theoretically be done, but could still hit big snags if you break your code in some way, and don't know where to fix it.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+You would want to utilize a separate branch when you are testing something out or trying a different method of something.
+Using the branch method allows you to try it, and then see how that new concept can work.  Then you can add it to the master if you know it is up to snuff.  
